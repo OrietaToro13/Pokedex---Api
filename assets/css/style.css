@@ -1,0 +1,19 @@
+body{
+	background-color: #CCFFE5;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Spectral', serif;
+}
+#wrapper{
+	padding-left: 0;
+}
+#wrapper.toggled{
+	padding-left: 250px;
+}
+#siderbar-wrapper{
+	z-index: 1000;
+	position: fixed;
+	left: 250px;
+	width: 0;
+	height: 100%;
+}
